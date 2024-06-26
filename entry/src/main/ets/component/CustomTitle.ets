@@ -1,7 +1,10 @@
+import { MemoModel } from '../model/MemoModel'
 @Component
 export default struct CustomTitle{
   @Link order: boolean
   @Link isAddDialogShow: boolean
+
+  //originMemoList: MemoModel[] = []
   // 重用样式 @Styles
   @Styles titleButtonStyle(){
     .width(56)
@@ -20,10 +23,11 @@ export default struct CustomTitle{
           .fontWeight(600)
           .margin({ left: 20})
           .alignSelf(ItemAlign.Start)
-        Text('共n条')
+          /*Text('共'+this.length+'条')
           .fontSize(15)
           .margin({ left: 20})
           .alignSelf(ItemAlign.Start)
+          */
       }
       Blank()
       //排序

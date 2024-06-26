@@ -9,6 +9,8 @@ import MemoTable from '../database/MemoTable'
 @Entry
 @Component
 struct Index {
+  //计数
+  @State length: number = 0
 
   //缓存原始数据
   originMemoList: MemoModel[] = []
@@ -66,6 +68,7 @@ struct Index {
       this.refreshByOrder()
       this.closeDialog()
     })
+
   }
 
   //删除笔记
@@ -141,6 +144,7 @@ struct Index {
         return b.updateTime - a.updateTime
       }
     })
+    const length = orderList.length
     this.memoList = orderList
   }
 
