@@ -40,7 +40,7 @@ struct Index {
   //当前编辑的memo索引
   editingMemoIndex: number = -1
 
-  //todo 数据库初始化
+  //数据库初始化
   private MemoTable = new MemoTable(()=>{
 
   })
