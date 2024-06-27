@@ -33,12 +33,17 @@
 
 ### 环境要求
 
+1. DevEco Studio Ver5.0.3.0
+2. OpenHarmony系统设备
+
 ### 本地部署
 
 ### 开发部署
 1. 下载/克隆项目
-2. 下载DevEco Studio并用DevEco Studio打开项目
-3. 重载ets\
+2. 下载DevEco Studio Ver5.0.3.0并用DevEco Studio Ver5.0.3.0打开项目
+3. 编译项目，并导出为Hap文件，安装在OpenHarmony系统设备上
+4. 运行
+
 ##  版权
 
 采用MIT许可证。
