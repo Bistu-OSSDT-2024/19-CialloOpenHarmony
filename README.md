@@ -38,11 +38,15 @@
 
 ### 本地部署
 
+1. 下载DevEco Studio Ver5.0.3.0并用DevEco Studio Ver5.0.3.0打开项目
+2. 编译项目，并导出为Hap文件，安装在OpenHarmony系统设备上
+3. 运行
+
 ### 开发部署
+
 1. 下载/克隆项目
 2. 下载DevEco Studio Ver5.0.3.0并用DevEco Studio Ver5.0.3.0打开项目
-3. 编译项目，并导出为Hap文件，安装在OpenHarmony系统设备上
-4. 运行
+3. 修改源代码，实现新功能
 
 ##  版权
 
